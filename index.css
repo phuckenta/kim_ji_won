@@ -148,4 +148,8 @@ img {
 }
 .row-heght {
   height: 666px;
+  margin-bottom: 100px;
+}
+p {
+  font-size: 14pt;
 }
