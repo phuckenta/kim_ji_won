@@ -4,10 +4,17 @@
   height: 90%;
   margin-left: 80px;
   margin-top: 50px;
+  margin-bottom: 100px;
+}
+.container-a1 {
+  width: 90%;
+  height: 90%;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 .row-can {
   padding-left: 100px;
-  padding-top: 50px;
+  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,7 +118,7 @@ h1 {
 .img3 {
   margin-right: 100px;
   margin-top: 200px;
-  width: 40%;
+  width: 30%;
   z-index: 2;
   left: 30%;
 }
@@ -147,7 +154,7 @@ img {
 }
 .sadow3:hover {
   z-index: 5;
-  width: 60%;
+  width: 40%;
   margin-top: -8px;
 }
 .coi-1 {
@@ -158,5 +165,55 @@ img {
   margin-bottom: 100px;
 }
 p {
-  font-size: 14pt;
+  text-align: justify;
+  font-size: 15pt;
+}
+.coi-2 {
+  width: 500px;
+}
+.img-slide {
+  width: 95%;
+  height: 90%;
+  object-fit: contain;
+  border-radius: 3rem;
+  border: 3px solid #fff;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.16);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 1;
+  margin-top: 15px;
+}
+.row-dau {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -webkit-box-shadow: 0px 15px 38px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 15px 38px 0px rgba(0, 0, 0, 0.1);
+}
+.col-head {
+  text-align: center;
+  width: 40%;
+  margin-top: 15px;
+}
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sticky-top1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8px;
+    bottom: 10px;
+    z-index: 1020;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+a {
+  font-family: "Jacques Francois Shadow", cursive;
+  color: #40323d;
+  font-size: 19pt;
 }
