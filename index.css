@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+body {
+  background-color: #ffceed;
+}
 .container-aa {
   width: 90%;
   height: 90%;
@@ -220,4 +223,81 @@ a {
 #name {
   width: 0;
   height: 0;
+}
+
+.row-icon {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.ul-icon {
+  position: relative;
+  margin-left: 30px;
+  padding: 0;
+  display: flex;
+  width: 90%;
+  height: 300px;
+}
+.li-icon {
+  position: relative;
+  list-style: none;
+  width: 150px;
+  height: 150px;
+  margin: 0 80px;
+  transform: rotate(-30deg) skew(25deg);
+  background: #ccc;
+}
+.li-icon span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  transition: 0.5s;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px !important;
+}
+.li-icon:hover span {
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.li-icon:hover span:nth-child(5) {
+  transform: translate(40px, -40px);
+  opacity: 1;
+}
+.li-icon:hover span:nth-child(4) {
+  transform: translate(30px, -30px);
+  opacity: 0.8;
+}
+.li-icon:hover span:nth-child(3) {
+  transform: translate(20px, -20px);
+  opacity: 0.6;
+}
+.li-icon:hover span:nth-child(2) {
+  transform: translate(10px, -10px);
+  opacity: 0.4;
+}
+.li-icon:hover span:nth-child(1) {
+  transform: translate(0, 0);
+  opacity: 0.2;
+}
+.li-icon:nth-child(1) span {
+  background: #3b5999;
+}
+.li-icon:nth-child(2) span {
+  background: #55acee;
+}
+.li-icon:nth-child(3) span {
+  background: #e4405f;
+}
+.li-icon:nth-child(4) span {
+  background: #dd4b39;
+}
+
+.text-icon {
+  margin-top: -600px;
+  margin-right: -340px;
 }
