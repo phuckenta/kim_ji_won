@@ -236,7 +236,7 @@ a {
   padding: 0;
   display: flex;
   width: 90%;
-  height: 300px;
+  height: 200px;
 }
 .li-icon {
   position: relative;
@@ -244,7 +244,7 @@ a {
   width: 150px;
   height: 150px;
   margin: 0 80px;
-  transform: rotate(-30deg) skew(25deg);
+  transform: rotate(-40deg) skew(25deg);
   background: #ccc;
 }
 .li-icon span {
@@ -300,4 +300,69 @@ a {
 .text-icon {
   margin-top: -600px;
   margin-right: -340px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open + Sans:600);
+
+.text {
+  width: 90%;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.text p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  font-size: 100pt;
+}
+
+.word {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  opacity: 0;
+  font-size: 100pt;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
 }
