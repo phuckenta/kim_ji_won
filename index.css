@@ -217,3 +217,7 @@ a {
   color: #40323d;
   font-size: 19pt;
 }
+#name {
+  width: 0;
+  height: 0;
+}
